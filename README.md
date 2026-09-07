@@ -20,26 +20,26 @@ This is a program that trains set of clusters to reconstruct faces from the LFW 
 
 ### PC1
 
-![](https://github.com/is386/eigenfaces/blob/main/images/pc1.png?raw=true)
+![](https://github.com/1nderr/eigen-faces/blob/main/images/pc1.png?raw=true)
 
 ### First face with PC1
 
-![](https://github.com/is386/eigenfaces/blob/main/images/reconstruct1.png?raw=true)
+![](https://github.com/1nderr/eigen-faces/blob/main/images/reconstruct1.png?raw=true)
 
 ### First face with 95% accuracy
 
 - `Number of Components: 189`
 
-![](https://github.com/is386/eigenfaces/blob/main/images/reconstruct2.png?raw=true)
+![](https://github.com/1nderr/eigen-faces/blob/main/images/reconstruct2.png?raw=true)
 
 ### Cluster Centers
 
-![](https://github.com/is386/eigenfaces/blob/main/images/centers.png?raw=true)
+![](https://github.com/1nderr/eigen-faces/blob/main/images/centers.png?raw=true)
 
 ### Cluster Mins
 
-![](https://github.com/is386/eigenfaces/blob/main/images/min.png?raw=true)
+![](https://github.com/1nderr/eigen-faces/blob/main/images/min.png?raw=true)
 
 ### Cluster Maxes
 
-![](https://github.com/is386/eigenfaces/blob/main/images/max.png?raw=true)
+![](https://github.com/1nderr/eigen-faces/blob/main/images/max.png?raw=true)

@@ -9,7 +9,7 @@ K = 10
 
 def load_data():
     people = fetch_lfw_people(min_faces_per_person=20, resize=0.7)
-    mask = np.zeros(people.target.shape, dtype=np.bool)
+    mask = np.zeros(people.target.shape, dtype=bool)
     for target in np.unique(people.target):
         mask[np.where(people.target == target)[0][:50]] = 1
     people_x = people.data[mask] / 255
@@ -22,6 +22,8 @@ def pca(X, k):
     sigma = X.T @ X / (X.shape[0] - 1)
     # Compute eigenvectors and eigenvalues
     W, V = np.linalg.eig(sigma)
+    # sigma is symmetric, so any imaginary parts are just floating point noise
+    W, V = W.real, V.real
     # Get indices of sorted eigenvalues
     i = np.argsort(W)[::-1]
     # Sort eigenvectors based on eigenvalues

@@ -4,7 +4,7 @@ This is a program that trains set of clusters to reconstruct faces from the LFW 
 
 ## Usage
 
-`python3 faces.py`
+`uv run faces.py`
 
 ## Dependencies
 
@@ -15,6 +15,8 @@ This is a program that trains set of clusters to reconstruct faces from the LFW 
 - `numpy`
 - `matplotlib`
 - `sklearn`
+
+The dependencies are managed with [uv](https://docs.astral.sh/uv/), which installs them on the first `uv run`.
 
 ## Results
 

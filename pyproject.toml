@@ -1,0 +1,14 @@
+[project]
+name = "eigen-faces"
+version = "0.1.0"
+description = "Reconstructs faces from the LFW dataset with PCA and clustering"
+readme = "README.md"
+authors = [
+    { name = "1nder", email = "20195347+1nderr@users.noreply.github.com" }
+]
+requires-python = ">=3.8"
+dependencies = [
+    "matplotlib",
+    "numpy",
+    "scikit-learn",
+]
